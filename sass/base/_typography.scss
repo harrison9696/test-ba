@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1.8;
+  letter-spacing: 0.05rem;
+  color: $color-gray-dark;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  color: $color-gray-dark;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $color-black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text {
+
+  &--dark {
+    color: $color-gray-dark;
+  }
+
+  &--light {
+    color: $color-gray-light;
+  }
+
+  &--white {
+    color: $color-white;
+  }
+
+  &--secondary {
+    font-size: 1.5rem;
+    color: #777777
+  }
+}
+
+.bold {
+  font-weight: 600;
+}
+
+// Specific
+.nav-text {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &--big {
+    font-size: 1.7rem;
+  }
+}
+
+.btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.heading {
+  text-transform: uppercase;
+
+  &--primary {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  &--secondary {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  &--tertiary {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
