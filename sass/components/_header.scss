@@ -1,28 +1,27 @@
 .header {
-  background-image: url(../img/banner-1-min.jpg);
-  height: 40rem;
-  width: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+	background-image: url(../img/banner-1-min.jpg);
+	height: 40rem;
+	width: 100vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
 
-  &__content {
-    padding: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(0%, -50%);
-  }
+	&__content {
+		padding: 2rem;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translate(0%, -50%);
+	}
 
-  &__description {
-    max-width: 25rem;
-  }
+	&__description {
+		max-width: 25rem;
+	}
 
-  &__title {
-
-    @media (max-width: 780px) {
-      max-width: 40rem;
-      line-height: 4.5rem;
-    }
-  }
+	&__title {
+		@media (max-width: 780px) {
+			max-width: 40rem;
+			line-height: 4.5rem;
+		}
+	}
 }

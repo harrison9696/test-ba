@@ -1,40 +1,39 @@
 .fabric {
+	&__flex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-  &__flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+		@media (max-width: 680px) {
+			display: grid;
+		}
+	}
 
-    @media (max-width: 680px) {
-      display: grid;
-    }
-  }
+	&__text {
+		width: 50%;
+		height: 40rem;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
 
-  &__text {
-    width: 50%;
-    height: 40rem;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+		@media (max-width: 680px) {
+			width: 100%;
+			order: 1;
+			text-align: center;
+			margin-left: 0;
+			height: auto;
+			margin-bottom: 4rem;
+		}
+	}
 
-    @media (max-width: 680px) {
-      width: 100%;
-      order: 1;
-      text-align: center;
-      margin-left: 0;
-      height: auto;
-      margin-bottom: 4rem;
-    }
-  }
+	&__image {
+		width: 50%;
+		height: 40rem;
+		background-image: url(../img/fabric-min.jpg);
 
-  &__image {
-    width: 50%;
-    height: 40rem;
-    background-image: url(../img/fabric-min.jpg);
-
-    @media (max-width: 680px) {
-      width: 100%;
-      order: 2;
-    }
-  }
+		@media (max-width: 680px) {
+			width: 100%;
+			order: 2;
+		}
+	}
 }

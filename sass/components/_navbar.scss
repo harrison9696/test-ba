@@ -1,96 +1,96 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  width: 100%;
-  background-color: $color-white;
-  height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	background-color: $color-white;
+	height: 60px;
 
-  &__flex {
-    display: flex;
-    justify-content: space-between;
-  }
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+	}
 
-  &__navigation-list {
-    display: flex;
-    padding-top: 1.1rem;
+	&__navigation-list {
+		display: flex;
+		padding-top: 1.1rem;
 
-    @media (max-width: 470px) {
-      display: none;
-    }
-  }
+		@media (max-width: 470px) {
+			display: none;
+		}
+	}
 
-  &__logo {
-    cursor: pointer;
+	&__logo {
+		cursor: pointer;
 
-    @media (max-width: 470px) {
-      padding-left: 11rem;
-    }
-    @media (max-width: 440px) {
-      padding-left: 10rem;
-    }
-    @media (max-width: 430px) {
-      padding-left: 9rem;
-    }
-    @media (max-width: 420px) {
-      padding-left: 8rem;
-    }
-  }
+		@media (max-width: 470px) {
+			padding-left: 11rem;
+		}
+		@media (max-width: 440px) {
+			padding-left: 10rem;
+		}
+		@media (max-width: 430px) {
+			padding-left: 9rem;
+		}
+		@media (max-width: 420px) {
+			padding-left: 8rem;
+		}
+	}
 
-  &__icons {
-    padding-top: 0.7rem;
-  }
+	&__icons {
+		padding-top: 0.7rem;
+	}
 
-  &__icon {
-    cursor: pointer;
-  }
+	&__icon {
+		cursor: pointer;
+	}
 
-  &__hamburger {
-    padding-top: 0.4rem;
+	&__hamburger {
+		padding-top: 0.4rem;
 
-    @media (max-width: 470px) {
-      display: block;
-    }
-  }
+		@media (max-width: 470px) {
+			display: block;
+		}
+	}
 }
 
 .announcement {
-  border-top: 2px solid $color-gray-light;
+	border-top: 2px solid $color-gray-light;
 }
 
 .content-push-down {
-  height: 60px;
+	height: 60px;
 }
 
 .nav-open {
-  height: 100vh;
-  width: 0;
-  background-color: $color-white;
-  transition: 0.3s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 101;
-  position: fixed;
+	height: 100vh;
+	width: 0;
+	background-color: $color-white;
+	transition: 0.3s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 101;
+	position: fixed;
 
-  &__list {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-  }
+	&__list {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+	}
 
-  &__close-btn {
-    padding-right: 25rem;
-    padding-bottom: 5rem;
-  }
+	&__close-btn {
+		padding-right: 25rem;
+		padding-bottom: 5rem;
+	}
 }
 
 .nav-active {
-  width: 100vw;
+	width: 100vw;
 }

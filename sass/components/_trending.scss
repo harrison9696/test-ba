@@ -1,62 +1,59 @@
 .trending {
+	&__grid {
+		display: flex;
+		justify-content: space-evenly;
+	}
 
-  &__grid {
-    display: flex;
-    justify-content: space-evenly;
-  }
+	&__grid-item {
+		cursor: pointer;
 
-  &__grid-item {
-    cursor: pointer;
+		&:last-child {
+			@media (max-width: 780px) {
+				display: none;
+			}
+		}
 
-    &:last-child {
-      @media (max-width: 780px) {
-        display: none;
-      }
-    }
+		@media (max-width: 588px) {
+			text-align: center;
+		}
+	}
 
-    @media (max-width: 588px) {
-      text-align: center;
-    }
-  }
+	&__image {
+		margin: auto;
 
-  &__image {
-    margin: auto;
+		img {
+			margin: auto;
+		}
+	}
 
-    img {
-      margin: auto;
-    }
-  }
+	&__name {
+		display: flex;
+		justify-content: space-between;
 
-  &__name {
-    display: flex;
-    justify-content: space-between;
-
-    @media (max-width: 588px) {
-      display: block;
-      justify-content: center;
-      text-align: center;
-    }
-  }
+		@media (max-width: 588px) {
+			display: block;
+			justify-content: center;
+			text-align: center;
+		}
+	}
 }
 
 .three {
-
-  @media (max-width: 588px) {
-    display: none;
-  }
+	@media (max-width: 588px) {
+		display: none;
+	}
 }
 
 .hide {
-
-  @media (max-width: 588px) {
-    display: none;
-  }
+	@media (max-width: 588px) {
+		display: none;
+	}
 }
 
 .unhide {
-  display: none;
-  
-  @media (max-width: 588px) {
-    display: block;
-  }
+	display: none;
+
+	@media (max-width: 588px) {
+		display: block;
+	}
 }
